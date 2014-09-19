@@ -13,19 +13,19 @@ With Listo, users will be able to:
 
 We are going to be setting up the environment from scratch, so that we can get used to building our projects. 
 
-First, fork and clone this repo, so that we can access this README during our development. For the sake of simplicity we have created the index.html file, so no need to change it yet. 
+<!-- First, fork and clone this repo, so that we can access this README during our development. For the sake of simplicity we have created the index.html file, so no need to change it yet.  -->
 
-After that, let's create a folder called 'app'. This is where we will store the guts of our app. Inside the app folder let's make a folder called 'scripts'. This is where we will store our JavaScript. 
+<!-- After that, let's create a folder called 'app'. This is where we will store the guts of our app. Inside the app folder let's make a folder called 'scripts'. This is where we will store our JavaScript.  -->
 
-Inside the js folder we will create our main javascript named something awesome like 'main.js'. 
+<!-- Inside the js folder we will create our main javascript named something awesome like 'main.js'.  -->
 
-Then inside the app folder we will create a folder called 'Styles', this is where we will store our CSS files. Inside the 'Styles' folder let's make a file called main.css so that we have a place to style things. 
+<!-- Then inside the app folder we will create a folder called 'Styles', this is where we will store our CSS files. Inside the 'Styles' folder let's make a file called main.css so that we have a place to style things.  -->
 
-Now that we've made our basic files, we want to get them all hooked together in our index.html file. 
+<!-- Now that we've made our basic files, we want to get them all hooked together in our index.html file.  -->
 
-*Remember: a lot of times we get errors in the beginning of a project is because the files are not properly linked. *
+<!-- *Remember: a lot of times we get errors in the beginning of a project is because the files are not properly linked. * -->
 
-*Remember: your browser will read your index.html from top-to-bottom, left-to-right. This means if you put your jquery under your main.js file you will end up with an error.*
+<!-- *Remember: your browser will read your index.html from top-to-bottom, left-to-right. This means if you put your jquery under your main.js file you will end up with an error.* -->
 
 
 #Step 2
@@ -39,7 +39,7 @@ The first thing we want to do is go into our app.js file and create our document
 
 	$(document).ready(function() {//ALL CODE GOES IN HERE});
 
-This essentially allows us to load our app when the document loads. It's a weird jQuery thing, but it's what we do. Remember, all of the code in our main.js will go within the {} of the above function. 
+<!-- This essentially allows us to load our app when the document loads. It's a weird jQuery thing, but it's what we do. Remember, all of the code in our main.js will go within the {} of the above function.  -->
 
 ###Basic Architecture
 
@@ -49,9 +49,9 @@ We are going to be creating a todo list. So the easiest way to store a list of t
 
 	var listo = [];
 
-Listo will be our main array for storing tasks. 
+<!-- Listo will be our main array for storing tasks.  -->
 
-Now, we don't want to just store strings. So instead we will store Task objects into our array. Because our users are going to be making a lot of Tasks we should perhaps streamline the object creating process with a **constructor**!
+<!-- Now, we don't want to just store strings. So instead we will store Task objects into our array. Because our users are going to be making a lot of Tasks we should perhaps streamline the object creating process with a **constructor**! -->
 
 *app.js*	
 
@@ -61,7 +61,7 @@ Now, we don't want to just store strings. So instead we will store Task objects 
 	}
 
 
-We now have an array to push our tasks onto, and a task constructor so our users can create object tasks for their lists.
+<!-- We now have an array to push our tasks onto, and a task constructor so our users can create object tasks for their lists. -->
 
 The next thing we want is the ability for a user to write a todo task into our index.html and save it to the array. 
 
